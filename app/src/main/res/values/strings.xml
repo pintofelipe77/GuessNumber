@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Pinto 77</string>
+    <string name="adivina_el">Adivina el # del 1 al 10</string>
+    <string name="send">Enviar</string>
+    <string name="ingresa_el">Ingresa el #</string>
+</resources>

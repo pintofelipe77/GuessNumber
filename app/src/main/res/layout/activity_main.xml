@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:layout_gravity="center"
+            android:text="@string/adivina_el"
+            android:textAllCaps="true"
+            android:textSize="30sp"
+            android:textColor="#854DE8"
+            android:textStyle="bold"
+            >
+
+        </TextView>
+        <EditText
+            android:id="@+id/edtInputNumber"
+            android:layout_width="200dp"
+            android:layout_height="48dp"
+            android:layout_gravity="center"
+            android:hint="@string/ingresa_el" >
+
+        </EditText>
+
+        <Button
+            android:id="@+id/btnSend"
+            android:layout_marginTop="16dp"
+            android:layout_width="177dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/send"
+
+            />
+
+
+        <TextView
+            android:id="@+id/tvShowInfo"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_height="77dp"
+
+             />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
